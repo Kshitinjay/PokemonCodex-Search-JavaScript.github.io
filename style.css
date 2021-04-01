@@ -1,3 +1,4 @@
+
 img {
     width: 80%;
     padding: 60px;
@@ -33,7 +34,7 @@ input:focus {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding: 30px 15px;
+    /* padding: 30px 15px; */
     background-color: #efefef;
     /* color: #406163; */
 }
