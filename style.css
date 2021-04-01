@@ -20,7 +20,7 @@ input:focus {
 
 .btn-search {
     border: none;
-    padding-bottom: 10px 25px;
+    padding: 3px 15px;
     border-radius: 0 5px 5px 0;
     background-color: #22CBA8;
     color: #fff;
