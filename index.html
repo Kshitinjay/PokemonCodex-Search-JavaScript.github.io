@@ -7,13 +7,17 @@
 
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
   <body>
 
     <div class="flex-center">
-      <h1>Pokedex</h1>
+      <h1 class="animate__animated animate__fadeInDown">Pokedex</h1>
       <small class="text-muted">Is your pokemon in our Database?</small>
       <div class="search-container col-md-5 col-sm-5">
         <input type="text" class="form-control" id="search_q" placeholder="Search pokemon by name">
@@ -25,8 +29,8 @@
         We don't have that!
       </div>
       <div class="col-md-5 col-sm-5 pokemon-card" id="pokemon_details">
-          <div class="img-container">
-              <img id="update_img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="" srcset="">
+          <div class="img-container animate__animated animate__fadeInUpBig">
+              <img id="update_img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png">
           </div>
           <div class="detail-container">
               <div class="title-container">
